@@ -65,5 +65,5 @@ add_subdirectory(test)
 
 enable_testing()
 
-add_test(testmisc test/testmisc)
+add_test(testmisc test/testmisc --gtest_output=xml:report.xml)
 
