@@ -4,8 +4,7 @@ add_executable(testmisc ${SRCS})
 
 target_link_libraries(testmisc
         pqueues
-        libgtest
-        libgmock
+        gtest
 )
 
 include_directories("..")
